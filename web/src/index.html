@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Мой первый сайт...">
+    <meta name="author" content="Dmitriy">
+    <meta name="robots" content="All">
+
+    <meta property="og:title" content="Мой первый сайт...">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Андрей Браун - Web-разработчик</title>
+</head>
+
+<body>
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function() {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+
+    </script>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="loader">
+                <div class="inner one"></div>
+                <div class="inner two"></div>
+                <div class="inner three"></div>
+            </div>
+        </div>
+    </div>
+    <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">Андрей Браун</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="title__container">
+            <h1>Привет<br>Я Андрей Браун</h1>
+            <h4>Фулл стек web-разработчик и Android-разработчик</h4>
+            <input type="button" value="Обо мне">
+            <input type="button" value="Мои работы">
+        </div>
+    </section>
+    <div class="about">
+        <h3>ОБО МНЕ</h3>
+        <div class="hr1"></div>
+        <p></p>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h5>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br> facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</h5>
+        <input type="submit" value="Скачать резюме">
+    </div>
+
+    <div class="whatcan">
+        <h3>ЧТО Я УМЕЮ</h3>
+        <div class="hr2"></div>
+        <div class="inside">
+            <div class="animation__web">
+                <p></p>
+                <h4>Веб-дизайн</h4>
+                <h5>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam. </h5>
+            </div>
+            <div class="animation__rasrab">
+                <p></p>
+                <h4>Разработка</h4>
+                <h5>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam. </h5>
+            </div>
+
+            <div class="animation__CEO">
+                <p></p>
+                <h4>CEO-Оптимизация</h4>
+                <h5>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam. </h5>
+            </div>
+
+            <div class="animation__adv">
+                <p></p>
+                <h4>Маркетинг</h4>
+                <h5>Lorem ipsum dolor sit amet placerat <br> facilisis felis mi in tempus eleifend <br> pellentesque natoque etiam. </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="case">
+        <h3>КЕЙСЫ</h3>
+        <div class="hr3"></div>
+        <div id="ds">
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</h5>
+        </div>
+        <p></p>
+        <div class="flex">
+            <div class="CLIENT">
+                <h4>CLIENT:</h4>
+                <h5>Какая-то компания</h5>
+                <h4>WEBSITE:</h4>
+                <h5>http://www.somedomain.com</h5>
+            </div>
+            <!--<div class="WEBSITE">
+            <h4>WEBSITE</h4>
+            <h5>http://www.somedomain.com</h5>
+        </div>-->
+            <div class="name">
+                <h4>Название проекта</h4>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna <br>
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span><br>
+            </div>
+        </div>
+        <input type="submit" value="VISIT LIVE SITE">
+    </div>
+
+    <div class="money">
+        <h3>Расчет стоимости</h3>
+        <div class="type">
+            <h4>ТИП САЙТА</h4>
+            <select name="list 1" id="list">
+                <option selected disabled hidden>Выберите пункт...</option>
+                <option value="vis">Визитка</option>
+                <option value="shop">Магазин</option>
+                <option value="len">Лендинг</option>
+            </select>
+        </div>
+        <div class="design">
+            <h4>ДИЗАЙН</h4>
+            <select name="list 1" id="list">
+                <option selected disabled hidden>Выберите пункт...</option>
+                <option value="opt1">opt 1</option>
+                <option value="opt2">opt 2</option>
+                <option value="opt3">opt 3</option>
+            </select>
+        </div>
+        <div class="adapt">
+            <h4>АДАПТИВНОСТЬ</h4>
+            <select name="list 1" id="list">
+                <option selected disabled hidden>Выберите пункт...</option>
+                <option value="opt1">opt 1</option>
+                <option value="opt2">opt 2</option>
+                <option value="opt3">opt 3</option>
+            </select>
+            <p></p>
+        </div>
+
+        <div class="time">
+            <h5>Сроки</h5>
+            <h5>0</h5>
+        </div>
+        <div class="monney">
+            <h5>Стоимость</h5>
+            <h5>0</h5>
+        </div>
+    </div>
+    <div class="statistics">
+        <div class="sta">
+            <h3>НЕМНОГО СТАТИСТИКИ</h3>
+        </div>
+        <p></p>
+        <div class="flex1">
+            <div class="clients">
+                <h3>120</h3>
+                <h5>СЧАСТЛИВЫХ КЛИЕНТОВ</h5>
+            </div>
+            <div class="hours of work">
+                <h3>4,600</h3>
+                <h5>ЧАСОВ РАБОТЫ</h5>
+            </div>
+            <div class="projects ended">
+                <h3>340</h3>
+                <h5>ПРОЕКТОВ ЗАВЕРШЕНО</h5>
+            </div>
+            <div class="awards">
+                <h3>23</h3>
+                <h5>НАГРАД ПОЛУЧЕНО</h5>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <h3>ОТЗЫВЫ</h3>
+        <p></p>
+        <div class="anotherboy"></div>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br>
+            facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</h4>
+        <h4><br><br>Михаил, Ген директор ПАО “Газпром”.</h4>
+    </div>
+
+
+    <div class="contacts">
+        <h3>МОИ КОНТАКТЫ</h3>
+        <div class="lineo"></div>
+        <h5 id="_">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo </h5>
+
+        <div class="pict">
+            <div class="animation__map"></div>
+            <div class="animation__letter"></div>
+            <div class="animation__phone"></div>
+        </div>
+
+        <div class="descr">
+            <h5>Санкт-Петербург <br> Невский проспект 11</h5>
+            <h5>dima_pelipenko13@mail.ru</h5>
+            <h5>+7 938 111-16-82</h5>
+        </div>
+        <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+        <div class="message">
+            <div class="flex12">
+                <input type="text" name="text_input" placeholder="Имя">
+                <input type="text" name="text_input" placeholder="Email" pattern="[@]{1}, [.]{1}">
+            </div>
+            <textarea name="text_input" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <input type="submit" value="Отправить" id="inp21">
+        </div>
+    </div>
+
+    <div class="map1">
+        <input type="submit" value="I`M HERE" id="map">
+    </div>
+
+    <footer>
+        <h5>Copyright © 2021 Андрей Браун. Design by Web</h5>
+    </footer>
+</body>
+
+</html>
