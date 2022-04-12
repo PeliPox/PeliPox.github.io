@@ -1,29 +1,25 @@
-body{
-    padding: 50px;
-    font-family: Arial,  sans-serif;
+.block {
+    margin: 250px;
+    width: 1400px;
+    background-color: aliceblue;
 }
-.main_block{
-    border: 2px solid red;
-    max-width: 800px;
-    height: 800px;
-    margin: 0 auto;
+
+.row {
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
 }
-.main_block div{
-    line-height: 50px;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    width: 33.3%;
-}
-.block_1{
-    background-color: aqua;
-    float: left;
-}
-.block_2{
-    background-color: blueviolet;
-    float: left;
-}
-.block_3{
+
+.col {
     background-color: chocolate;
-    float: left;
+    padding: 5px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.col2{
 }

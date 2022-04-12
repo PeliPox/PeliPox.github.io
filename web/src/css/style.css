@@ -128,16 +128,15 @@ nav {
     color: #fff;
     font-size: 25px;
     line-height: 60px;
-    padding-left: 388px;
     float: left;
     -webkit-animation: coming 2s;
     -o-animation: coming 2s;
     animation: coming 2s;
+    font-family: 'Raleway', sans-serif;
 }
 
 .menu {
     float: left;
-    padding-left: 432px;
 }
 
 .menu li {
@@ -145,7 +144,7 @@ nav {
     line-height: 60px;
     color: #fff;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.5s ease forwards;
     -o-animation: topshift 0.5s ease forwards;
@@ -161,9 +160,9 @@ nav {
 
 .title__container {
     float: left;
-    margin: 342px 0px 0px 335px;
     color: #2c384a;
     text-align: center;
+    width: 100%;
     opacity: 0;
     -webkit-animation: titlemove 1.3s ease forwards;
     -o-animation: titlemove 1.3s ease forwards;
@@ -174,14 +173,25 @@ nav {
 }
 
 .title__container h1 {
+    font-family: 'Arial', sans-serif;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .title__container h4 {
     margin-top: 40px;
     font-size: 18px;
     color: #79818d;
+}
+
+.animation__custom-hands {
+    font-size: 40px;
+}
+
+.animation__custom-hands:hover {
+    transform: scale(1.15);
+    animation: tada;
+    animation-duration: 1.5s;
 }
 
 .title__container input {
@@ -201,6 +211,7 @@ nav {
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu li a:visited {
@@ -280,7 +291,37 @@ nav {
 
     to {
         opacity: 1;
-        margin-left: 335px;
+        margin-left: 0px;
+    }
+}
+
+.white-btn:visited {
+    color: white;
+}
+
+@media (max-width:991px) {
+    .title__container, .title__container h4, .title__container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .title__container input{
+        border-color: white;
+    }
+    
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        z-index: 1;
     }
 }
 
@@ -340,12 +381,7 @@ nav {
     background-color: #2c384a;
     color: white;
     transform: scale(1.1);
-    opacity: 0;
-}
-
-.about input:hover{
-    background: url(../img/load1.png) 7% no-repeat;
-    opacity: 1;
+    text-decoration-color: white;
 }
 
 .about input:active {
@@ -834,7 +870,7 @@ nav {
     border-radius: 5px;
     color: #fff;
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 5px 10px;
     margin: 20px 0px 0px 870px;
 }
 
