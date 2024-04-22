@@ -1,0 +1,13 @@
+@media (max-width: 1200px) {
+    .sertificate__list {
+        flex-wrap: wrap;
+    }
+
+    .sertificate__item {
+        margin: 0 auto;
+    }
+
+    .sertificate__item:not(:last-child){
+        margin-bottom: 50px;
+    }
+}

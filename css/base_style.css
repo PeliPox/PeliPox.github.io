@@ -1,0 +1,195 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #1f2a28;
+}
+
+/* glob */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    background-color: #ff543e;
+    color: white;
+    border-radius: 4px;
+    font-weight: 300;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff7d6c;
+}
+
+.btn:active {
+    background-color: #d92913;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 21px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.section-offset {
+    padding-top: 75px;
+    padding-bottom: 130px;
+}
+
+.section-descr {
+    margin: 0;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+/* header */
+
+.header__container {
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.header {
+    padding-top: 16px;
+}
+
+.header__address {
+    font-style: normal;
+}
+
+.header__logo {
+    margin-right: 13px;
+}
+
+.address-icon {
+    margin-right: 10px;
+}
+
+.address__ {
+    margin: 0;
+    max-width: 140px;
+}
+
+.header__contact {
+    margin-left: auto;
+}
+
+.header__phone {
+    margin-right: 50px;
+    transition: color .3s ease-in-out;
+}
+
+.header__phone:hover {
+    color: #ff7d6c;
+}
+
+.header__btn {
+    padding: 10px 34px;
+}
+
+.header__nav {
+    background-color: #ff543e;
+}
+
+.nav__list {
+    padding: 16px 0 16px 0;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav__link {
+    display: inline-block;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    transform: scale(1.4);
+}
+
+/* footer */
+
+.footer__container {
+    margin-bottom: 18px;
+}
+
+.footer {
+    padding-top: 25px;
+}
+
+.footer-nav__list {
+    margin: 0;
+    margin-left: auto;
+    align-items: center;
+}
+
+.footer-nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.last__footer {
+    margin: 0;
+    background-color: #ff543e;
+}
+
+.last-footer__descr {
+    margin: 0;
+    text-align: center;
+    padding: 16px 0 16px 0;
+    color: white;
+}
+
+.footer-nav__link {
+    display: flex;
+    transition: 0.3s;
+}
+
+.footer-nav__link:hover {
+    transform: scale(1.4);
+}

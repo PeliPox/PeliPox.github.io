@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+    .documentation__btn {
+        font-size: 10px;
+    }
+}
