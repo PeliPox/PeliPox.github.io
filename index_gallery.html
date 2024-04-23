@@ -6,9 +6,9 @@
         <title>ООО"Селянин"</title>
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/base_style.css" />
-        <link rel="stylesheet" href="./css/style_sertificates.css" />
+        <link rel="stylesheet" href="./css/style_gallery.css" />
         <link rel="stylesheet" href="./css/media_req_css/base_media.css" />
-        <link rel="stylesheet" href="./css/media_req_css/sertificates_media.css" />
+        <link rel="stylesheet" href="./css/media_req_css/gallery_media.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -16,7 +16,6 @@
             rel="stylesheet"
         />
     </head>
-
     <body>
         <header class="header">
             <div class="header__container container flex">
@@ -50,32 +49,38 @@
             </div>
 
             <nav class="header__nav">
-                <div class="container flex">
+                <div class="container">
                     <ul class="nav__list list-reset flex">
                         <li class="nav__item">
-                            <a href="main-page.html" class="nav__link"
+                            <a href="index_main-page.html" class="nav__link"
                                 >Главная</a
                             >
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__link">Прайс-лист</a>
+                            <a href="index_catalog.html" class="nav__link">Прайс-лист</a>
                         </li>
                         <li class="nav__item">
-                            <a href="main-page.html" class="nav__link">Услуги</a>
+                            <a href="#services" class="nav__link"
+                                >Услуги</a
+                            >
                         </li>
                         <li class="nav__item">
-                            <a href="contacts.html" class="nav__link"
+                            <a href="index_contacts.html" class="nav__link"
                                 >Контакты</a
                             >
                         </li>
                         <li class="nav__item">
-                            <a href="/sertificates.html" class="nav__link">Сертификаты</a>
+                            <a href="index_sertificates.html" class="nav__link"
+                                >Сертификаты</a
+                            >
                         </li>
                         <li class="nav__item">
-                            <a href="gallery.html" class="nav__link">Галерея</a>
+                            <a href="index_gallery.html" class="nav__link">Галерея</a>
                         </li>
                         <li class="nav__item">
-                            <a href="/documentation.html" class="nav__link">Документация</a>
+                            <a href="index_documentation.html" class="nav__link"
+                                >Документация</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -83,25 +88,65 @@
         </header>
 
         <main class="main">
-            <section class="sertificates">
+            <section class="gallery">
                 <div class="container">
-                    <h1 class="sertificate__title section-title">
-                        Сертификаты
-                    </h1>
-                    <ul class="sertificate__list list-reset flex">
-                        <li class="sertificate__item flex">
+                    <h1 class="gallery__title section-title">Галерея</h1>
+                    <ul class="gallery__list flex list-reset">
+                        <li class="gallery__item">
                             <img
-                                src="/img/sertificates/sertificate_1.png"
-                                alt="Сертификат-1"
-                                class="sertificate__img"
+                                class="gallery-img__item"
+                                src="/img/gallery/gallery-img-1.jpg"
+                                alt=""
                             />
+                            <div class="gallery-text__block">
+                                <h3 class="gallery-item__caption">Photo 1</h3>
+                                <p class="gallery-item__descr">
+                                    Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit, sed diam nonummy
+                                </p>
+                            </div>
                         </li>
-                        <li class="sertificate__item flex">
+                        <li class="gallery__item">
                             <img
-                                src="img/sertificates/sertificate_2.png"
-                                alt="Сертификат-2"
-                                class="sertificate__img"
+                                class="gallery-img__item"
+                                src="/img/gallery/gallery-img-2.jpg"
+                                alt=""
                             />
+                            <div class="gallery-text__block">
+                                <h3 class="gallery-item__caption">Photo 2</h3>
+                                <p class="gallery-item__descr">
+                                    Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit, sed diam nonummy
+                                </p>
+                            </div>
+                        </li>
+                        <li class="gallery__item">
+                            <img
+                                class="gallery-img__item"
+                                src="/img/gallery/gallery-img-3.jpg"
+                                alt=""
+                            />
+                            <div class="gallery-text__block">
+                                <h3 class="gallery-item__caption">Photo 3</h3>
+                                <p class="gallery-item__descr">
+                                    Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit, sed diam nonummy
+                                </p>
+                            </div>
+                        </li>
+                        <li class="gallery__item">
+                            <img
+                                class="gallery-img__item"
+                                src="/img/gallery/gallery-img-4.jpg"
+                                alt=""
+                            />
+                            <div class="gallery-text__block">
+                                <h3 class="gallery-item__caption">Photo 4</h3>
+                                <p class="gallery-item__descr">
+                                    Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit, sed diam nonummy
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -125,10 +170,7 @@
                         >
                     </li>
                     <li class="footer-nav__item">
-                        <a href="#" class="footer-nav__link">Сертификация</a>
-                    </li>
-                    <li class="footer-nav__item">
-                        <a href="#" class="footer-nav__link">Документация</a>
+                        <a href="/catalog.html" class="footer-nav__link">Прайс-лист</a>
                     </li>
                 </ul>
             </div>
