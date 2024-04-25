@@ -1,12 +1,9 @@
 .documentation {
-    padding-top: 75px;
-    padding-bottom: 128px;
     border-bottom: 3px solid #ffa89d;
 }
 
 .documentation__title {
-    margin-bottom: 75px;
-    font-weight: 400;
+    margin-bottom: 80px;
 }
 
 .documentation__item {
