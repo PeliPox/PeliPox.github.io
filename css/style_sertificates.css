@@ -1,13 +1,10 @@
 .sertificates {
-    padding-top: 75px;
-    padding-bottom: 128px;
     border-bottom: 3px solid #ffa89d;
 }
 
 .sertificate__title {
-    margin-bottom: 75px;
+    margin-bottom: 80px;
     text-align: center;
-    font-weight: 400;
 }
 
 .sertificate__list {
