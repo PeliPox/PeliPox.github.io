@@ -90,13 +90,9 @@
     font-size: 36px;
     line-height: 130%;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
-.gallery__container {
-    padding-top: 75px;
-    padding-bottom: 130px;
-}
 .gallery {
     border-bottom: 3px solid #ffa89d;
 }
@@ -142,8 +138,6 @@
 /* contacts */
 
 .contacts {
-    padding-top: 75px;
-    padding-bottom: 130px;
     border-bottom: 3px solid #ffa89d;
 }
 
